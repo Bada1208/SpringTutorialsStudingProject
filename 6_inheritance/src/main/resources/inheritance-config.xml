@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="message" class="com.sysoiev.inheritance.Message">
+        <property name="message" value="Hello everybody!!!"/>
+    </bean>
+
+    <bean id="messageToYou" class="com.sysoiev.inheritance.MessageToYou" parent="message">
+        <property name="message" value="Hello everybody!!!"/>
+        <property name="messageToYou" value="And I am glad!)"/>
+    </bean>
+</beans>
