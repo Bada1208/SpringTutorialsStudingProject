@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="collectionInjection" class="com.sysoiev.collections.CollectionInjection">
+        <property name="documentList">
+            <list>
+                <value>JSR 236</value>
+                <value>JSR 235</value>
+                <value>JSR 4344</value>
+                <value>JSR 237</value>
+            </list>
+        </property>
+        <property name="documentSet">
+            <set>
+                <value>JSR 236</value>
+                <value>JSR 235</value>
+                <value>JSR 4344</value>
+                <value>JSR 237</value>
+            </set>
+        </property>
+        <property name="documentMap">
+            <map>
+                <entry key="1" value="JSR 236"/>
+                <entry key="2" value="JSR 235"/>
+                <entry key="3" value="JSR 4344"/>
+                <entry key="4" value="JSR 237"/>
+            </map>
+        </property>
+        <property name="documentProperties">
+            <props>
+                <prop key="one">JSR 236</prop>
+                <prop key="two">JSR 235</prop>
+                <prop key="three">JSR 4344</prop>
+                <prop key="four">JSR 237</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
