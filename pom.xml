@@ -20,6 +20,7 @@
         <module>7_dependency_injection</module>
         <module>8_collections</module>
         <module>9a_autowiring_byname</module>
+        <module>9b_autowiring_bytype</module>
     </modules>
 
     <build>
