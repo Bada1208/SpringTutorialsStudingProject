@@ -24,6 +24,7 @@
         <module>9c_autowiring_constructor</module>
         <module>10a_annotations_@Required</module>
         <module>10b_annotations_@Autowired</module>
+        <module>10c_annotations_@Qualifier</module>
     </modules>
 
     <build>

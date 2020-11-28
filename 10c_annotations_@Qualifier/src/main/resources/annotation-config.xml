@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <bean id="position" class="com.sysoiev.annotations.qualifier.Position"/>
+
+    <bean id="tester" class="com.sysoiev.annotations.qualifier.Developer">
+        <constructor-arg name="name" value="Sergey"/>
+        <constructor-arg name="experience" value="2"/>
+        <constructor-arg name="specialty" value="testing"/>
+    </bean>
+
+    <bean id="javaDeveloper" class="com.sysoiev.annotations.qualifier.Developer">
+        <constructor-arg name="name" value="Andrey"/>
+        <constructor-arg name="experience" value="6"/>
+        <constructor-arg name="specialty" value="java"/>
+    </bean>
+</beans>
