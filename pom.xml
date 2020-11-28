@@ -22,6 +22,7 @@
         <module>9a_autowiring_byname</module>
         <module>9b_autowiring_bytype</module>
         <module>9c_autowiring_constructor</module>
+        <module>10a_annotations_@Required</module>
     </modules>
 
     <build>
