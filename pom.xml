@@ -28,6 +28,7 @@
         <module>11_java_annotations</module>
         <module>12_event_handler</module>
         <module>13_spring_jdbc</module>
+        <module>14_spring_mvc</module>
     </modules>
 
     <build>
