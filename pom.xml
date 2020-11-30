@@ -27,6 +27,7 @@
         <module>10c_annotations_@Qualifier</module>
         <module>11_java_annotations</module>
         <module>12_event_handler</module>
+        <module>13_spring_jdbc</module>
     </modules>
 
     <build>
